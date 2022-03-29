@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+/* .header, .hero, .info, .quote-section, .call-to-action, .footer {
+    flex: 1;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.header li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+}
+
+.subtext, .header ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    padding: 80px;
+    display: flex;
+}
+
+.hero button {
+    margin-top: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title-image {
+    background-color: gray;
+    color: white;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filled-button {}
+
+.info {
+    padding: 100px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.outlined-box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 50px 100px;
+    border-radius: 7px;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+button {
+    background: #3882F6;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.action-title {
+    font-weight: bold;
+}
+
+.action-text {
+    color: #E5E7EB;
+}
+
+.outlined-button {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    justify-self: flex-end;
+}
+
