@@ -6,13 +6,10 @@ body {
     margin: 0;
 }
 
-/* .header, .hero, .info, .quote-section, .call-to-action, .footer {
-    flex: 1;
-} */
-
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px 150px;
 }
 
 .header ul {
@@ -43,8 +40,9 @@ body {
 }
 
 .hero {
-    padding: 80px;
+    padding: 80px 150px;
     display: flex;
+    justify-content: space-between;
 }
 
 .hero button {
@@ -74,7 +72,8 @@ body {
 .filled-button {}
 
 .info {
-    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 .info-title {
@@ -126,11 +125,11 @@ body {
 
 .call-to-action {
     background-color: #3882F6;
-    margin: 50px 100px;
+    margin: 50px 500px;
     border-radius: 7px;
-    padding: 50px 30px;
+    padding: 50px 80px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: white;
 }
 
